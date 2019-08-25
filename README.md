@@ -1,13 +1,14 @@
 # Ruby Training
  Preparation tasks for interview
 
-Ruby installation: <br>
+**Ruby installation:** <br>
 1. download installer from following link: <br>
-http://railsinstaller.org/en <br>
+*http://railsinstaller.org/en* <br>
 2. Check with the command 'irb' and the expected output is: irb(main):001:0> <br>
-if it doesn't work, please set up your windows environment path manually. <br>
+if it doesn't work, please set up your windows environment path **manually**. <br>
 
-As we will be using git, so all the task solution should be uploaded to github. Please follow the instructions below: <br>
+**As we will be using git, so all the task solution should be uploaded to github. Please follow the instructions below:** <br>
 1. Create a branch for your own experiment. and code on that branch.<br>
-2. when you're done, please create a merge request and add reviewer.<br>
-3. If it is accepted then you're ready to squash and merge. <br>
+2. Rename your code with your name. (i.e. **someone.rb**) <br>
+3. when you're done, please create a merge request and add reviewer.<br>
+4. If it is accepted then you're ready to squash and merge. <br>
