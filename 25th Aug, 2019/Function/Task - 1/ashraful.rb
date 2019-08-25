@@ -1,5 +1,7 @@
-emailInput = "demo@email.com"
-passwordInput = "@demoPassword123"
+print "Enter your email : "
+emailInput = gets.chomp
+print "Enter your password : "
+passwordInput = gets.chomp
 
 def isEmailValid(email)
   isValid = false

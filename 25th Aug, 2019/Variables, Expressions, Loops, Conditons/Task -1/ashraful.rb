@@ -1,4 +1,5 @@
-demoString = "We Love Advancer <3 <3 <3"
+print "Enter your string : "
+demoString = gets.chomp
 
 #string length
 puts "Length : " + demoString.length.to_s  # "to_s" convert integer to string
