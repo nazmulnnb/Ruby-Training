@@ -5,4 +5,5 @@ Write code in two different ways, one is using STL hash another one using no STL
 **Sample Output:** *Champion: code (3 times) <br>
 Bruteforce took: 19ms <br>
 Hash took: 2ms <br>
-verdict: Hash won* 
+verdict: Hash won* <br>
+***you can assume that all the input characters will be lower-case roman characters***
