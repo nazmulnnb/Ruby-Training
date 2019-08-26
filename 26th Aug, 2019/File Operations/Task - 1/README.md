@@ -8,3 +8,5 @@ output file will be **yourname_compressed.txt** and decompressed output will be 
 ***your console should show a done message upon completion and show a verdict message showing File size is increased or decreased.***<br>
 
 ***This one is case sensitive, please be aware of that.***
+
+***you must through exceptions if file is not acceesible ***
