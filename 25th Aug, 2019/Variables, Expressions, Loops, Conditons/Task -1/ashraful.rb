@@ -1,13 +1,25 @@
-print "Enter your string : "
-demoString = gets.chomp
+def main
+  print "Enter your string : "
+  demoString = gets.chomp
+  #string length
+  puts "Length : " + demoString.length.to_s  # "to_s" convert integer to string
 
-#string length
-puts "Length : " + demoString.length.to_s  # "to_s" convert integer to string
+  #reverse string
+  puts "Reverse : " + demoString.reverse
 
-#reverse string
-puts "Reverse : " + demoString.reverse
+  #palindrome
+  puts "isPalindrome : "+isPalindrome(demoString)
 
-#palindrome
+  #uppercase,lowercase,number,special character count
+  checkCharacter(demoString)
+
+  #uppercase string
+  puts "upper-case string : " + demoString.upcase
+
+  #lowercase string
+  puts "lower-case string : " + demoString.downcase
+end
+
 def isPalindrome(input)
   if input == input.reverse
     return "true"
@@ -16,9 +28,6 @@ def isPalindrome(input)
   end
 end
 
-puts "isPalindrome : "+isPalindrome(demoString)
-
-#uppercase lowercase character
 def checkCharacter(input)
   uppercaseCharacter = 0
   lowercaseCharacter = 0
@@ -45,10 +54,5 @@ def checkCharacter(input)
   puts "numbers : " + numberCharacter.to_s
   puts "special : " + specialCharacter.to_s
 end
-checkCharacter(demoString)
 
-#uppercase string
-puts "upper-case string : " + demoString.upcase
-
-#lowercase string
-puts "lower-case string : " + demoString.downcase
+main

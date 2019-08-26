@@ -1,7 +1,12 @@
-print "Enter your email : "
-emailInput = gets.chomp
-print "Enter your password : "
-passwordInput = gets.chomp
+def main
+  print "Enter your email : "
+  emailInput = gets.chomp
+  print "Enter your password : "
+  passwordInput = gets.chomp
+
+  puts "Email : " + isEmailValid(emailInput).to_s
+  puts "Password : " + isPasswordValid(passwordInput).to_s
+end
 
 def isEmailValid(email)
   isValid = false
@@ -14,8 +19,6 @@ def isEmailValid(email)
   return isValid
 end
 
-puts "Email : " + isEmailValid(emailInput).to_s
-
 def isPasswordValid(password)
   isValid = false
   passwordLength = password.length
@@ -27,4 +30,4 @@ def isPasswordValid(password)
   return isValid
 end
 
-puts "Password : " + isPasswordValid(passwordInput).to_s
+main
