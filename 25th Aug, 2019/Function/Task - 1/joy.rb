@@ -1,11 +1,9 @@
 def main
   puts "Email:"
-  email = gets
-  email = email.chomp
+  email = gets.chomp
 
   puts "Password:"
-  pass = gets
-  pass = pass.chomp
+  pass = gets.chomp
 
   puts "Email: " + isEmailValid(email).to_s
   puts "Password: " + isPasswordValid(pass).to_s

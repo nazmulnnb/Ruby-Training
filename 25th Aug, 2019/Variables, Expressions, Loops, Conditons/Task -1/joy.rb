@@ -11,8 +11,7 @@ end
 
 def getInput
   # Gets the console input
-  input = gets
-  input = input.chomp
+  input = gets.chomp
 end
 
 def reverse(string)
@@ -32,6 +31,7 @@ end
 
 def IsPalindrome(string)
   isPalindrome = true
+  string = string.downcase
   result = "isPalindrome: "
   size = string.size
   iterations = size/2
