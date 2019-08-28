@@ -21,7 +21,7 @@ def main
 end
 
 def isPalindrome(input)
-  if input == input.reverse
+  if input == input.reverse.downcase
     return "true"
   else
     return "false"
