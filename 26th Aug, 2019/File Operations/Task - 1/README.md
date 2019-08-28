@@ -1,4 +1,4 @@
-*We're aware of file compressing technique. In this task, we're going to compress text file. Compressing technique is goes like this below:**<br>
+*We're aware of file compressing technique. In this task, we're going to compress text file. Compressing technique is goes like this below:*<br>
 ***-> aaamarr aamii = 3a1m1a2r 2a1m2i*** <br>
 ***unluckily sometimes file size increases instead of decreasing. But still, let's honor this technique anyway. And we're going to write decompressor too.***<br>
 
@@ -9,4 +9,4 @@ output file will be **yourname_compressed.txt** and decompressed output will be 
 
 ***This one is case sensitive, please be aware of that.***
 
-***you must through exceptions if file is not acceesible ***
+***you must through exceptions if file is not acceesible.***
