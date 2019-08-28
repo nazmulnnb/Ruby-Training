@@ -10,3 +10,5 @@ output file will be **yourname_compressed.txt** and decompressed output will be 
 ***This one is case sensitive, please be aware of that.***
 
 ***you must through exceptions if file is not acceesible.***
+
+***you can safely assume that there is at most 9 same consecutive characters***
